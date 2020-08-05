@@ -51,4 +51,6 @@ func getPort() (string, error) {
 
 func enableCors(w *http.ResponseWriter) {
 	(*w).Header().Set("Access-Control-Allow-Origin", "https://go-react-katangafor.firebaseapp.com")
+	(*w).Header().Set("Access-Control-Allow-Origin", "https://go-react-katangafor.web.app")
+
 }
